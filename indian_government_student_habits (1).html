@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Government | Good & Bad Habits</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
+body{background:#f4f8fc;color:#222}
+header{background:linear-gradient(135deg,#ff9933,#fff,#138808);padding:25px;text-align:center;border-bottom:4px solid #222}
+header h1{font-size:36px;margin-bottom:8px} header p{font-weight:bold}
+nav{background:#063970;padding:15px;text-align:center;position:sticky;top:0;z-index:10}
+nav a{color:#fff;text-decoration:none;margin:0 18px;font-weight:bold} nav a:hover{color:#ffcc00}
+.hero{text-align:center;padding:70px 20px;background:linear-gradient(120deg,#e8f5ff,#fff)}
+.hero h2{font-size:42px;color:#063970;margin-bottom:15px}.hero p{font-size:19px;max-width:750px;margin:auto;line-height:1.6}
+.section{padding:55px 8%}.section h2{text-align:center;color:#063970;font-size:32px;margin-bottom:35px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:25px}
+.card{background:#fff;padding:28px;border-radius:15px;box-shadow:0 5px 18px rgba(0,0,0,.1);transition:.3s}
+.card:hover{transform:translateY(-7px)}.good{border-top:6px solid #138808}.bad{border-top:6px solid #d32f2f}
+.card h3{margin-bottom:15px;font-size:23px}.good h3{color:#138808}.bad h3{color:#d32f2f}
+.card ul{padding-left:20px;line-height:1.9}.tips{background:#063970;color:#fff}.tips h2{color:#fff}
+.tip-box{max-width:800px;margin:auto;background:rgba(255,255,255,.1);padding:30px;border-radius:15px}
+.tip-box p{font-size:18px;line-height:1.8;margin-bottom:10px}.form-section{background:#eef5ed}
+form{max-width:750px;margin:auto;background:#fff;padding:35px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.12)}
+label{display:block;margin-top:18px;margin-bottom:7px;font-weight:bold}
+input,select,textarea{width:100%;padding:13px;border:1px solid #bbb;border-radius:7px;font-size:16px}
+textarea{resize:vertical;min-height:80px}.submit-btn{width:100%;margin-top:25px;padding:15px;background:#138808;color:#fff;border:0;border-radius:8px;font-size:18px;font-weight:bold;cursor:pointer}
+.submit-btn:hover{background:#0b6806}footer{background:#111;color:#fff;text-align:center;padding:25px}footer p{margin:7px}
+@media(max-width:600px){header h1{font-size:27px}.hero h2{font-size:31px}nav a{margin:0 7px;font-size:14px}}
+</style>
+</head>
+<body>
+<header><h1>🇮🇳 Indian Government</h1><p>Student Good Habits & Healthy Lifestyle Program</p></header>
+<nav>
+<a href="#home">Home</a><a href="#good">Good Habits</a><a href="#bad">Bad Habits</a><a href="#tips">Tips</a><a href="#form">Student Form</a>
+</nav>
+<section class="hero" id="home"><h2>Build Good Habits, Build a Better Future 🌟</h2>
+<p>Good habits help students become healthier, more responsible, confident and successful. Small positive actions every day can make a big difference in life.</p></section>
+<section class="section" id="good"><h2>✅ Good Habits</h2><div class="cards">
+<div class="card good"><h3>📚 Study Regularly</h3><ul><li>Complete homework on time</li><li>Read every day</li><li>Ask questions when confused</li><li>Keep schoolwork organized</li></ul></div>
+<div class="card good"><h3>🥗 Eat Healthy</h3><ul><li>Eat fruits and vegetables</li><li>Drink enough water</li><li>Have regular meals</li><li>Choose nutritious foods</li></ul></div>
+<div class="card good"><h3>🧹 Stay Clean</h3><ul><li>Wash hands regularly</li><li>Keep your classroom clean</li><li>Maintain personal hygiene</li><li>Keep books and bags organized</li></ul></div>
+<div class="card good"><h3>🏃 Stay Active</h3><ul><li>Play outdoor games</li><li>Take regular movement breaks</li><li>Spend time outdoors</li><li>Maintain a healthy routine</li></ul></div>
+</div></section>
+<section class="section" id="bad"><h2>❌ Habits to Avoid</h2><div class="cards">
+<div class="card bad"><h3>📱 Excessive Screen Time</h3><ul><li>Avoid unnecessary phone use</li><li>Take breaks from screens</li><li>Don't let screens replace sleep or study</li></ul></div>
+<div class="card bad"><h3>🍔 Unhealthy Eating</h3><ul><li>Avoid too much junk food</li><li>Don't skip regular meals</li><li>Choose healthier alternatives</li></ul></div>
+<div class="card bad"><h3>😴 Poor Sleep Routine</h3><ul><li>Avoid staying up unnecessarily late</li><li>Keep a regular sleep schedule</li><li>Give your body enough rest</li></ul></div>
+<div class="card bad"><h3>📖 Procrastination</h3><ul><li>Don't keep homework until the last minute</li><li>Make a simple daily plan</li><li>Break large tasks into smaller tasks</li></ul></div>
+</div></section>
+<section class="section tips" id="tips"><h2>🌟 Student Success Tips</h2><div class="tip-box">
+<p>⭐ Set small goals every day.</p><p>⭐ Be respectful to teachers, parents and classmates.</p><p>⭐ Keep your study area organized.</p><p>⭐ Learn from mistakes instead of giving up.</p><p>⭐ Balance study, exercise, hobbies and rest.</p><p>⭐ Help others whenever you can.</p>
+</div></section>
+<section class="section form-section" id="form"><h2>📝 Student Information Form</h2>
+<form onsubmit="submitForm(event)">
+<label>Student Name</label><input type="text" id="name" placeholder="Enter student name" required>
+<label>Class</label><select id="class" required><option value="">Select Class</option><option>Class 1</option><option>Class 2</option><option>Class 3</option><option>Class 4</option><option>Class 5</option><option>Class 6</option><option>Class 7</option><option>Class 8</option><option>Class 9</option><option>Class 10</option><option>Class 11</option><option>Class 12</option></select>
+<label>School Name</label><input type="text" id="school" placeholder="Enter school name" required>
+<label>Address</label><textarea id="address" placeholder="Enter address"></textarea>
+<label>Phone Number</label><input type="tel" id="phone" placeholder="Enter phone number">
+<button class="submit-btn" type="submit">Submit Information</button>
+</form></section>
+<footer><p>🇮🇳 Indian Government</p><p>Student Good Habits & Healthy Lifestyle Program</p></footer>
+<script>
+function submitForm(event){event.preventDefault();const name=document.getElementById("name").value;alert("Thank you, "+name+"! Your information has been submitted successfully.");}
+</script>
+</body>
+</html>
